@@ -3,56 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mondol Real | Data Scientist Portfolio</title>
+    <title>SOEUK BONDOL | Data Scientist Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">MR</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container glass-bg">
+        <header>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Mondol Real</h1>
-            <div class="typed-text">I'm a <span class="highlight">Data Scientist</span></div>
-            <p class="hero-description">Transforming Data into Insights</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn primary">View Projects</a>
-                <a href="#contact" class="btn secondary">Contact Me</a>
+        <section id="home" class="hero">
+            <div class="hero-content glass-card animate-fade-in">
+                <img src="imges/profile/profile.jpg" alt="Mondol Real" class="profile-photo">
+                <h1 class="gradient-text animate-slide-up">SOEUK BONDOL</h1>
+                <div class="typed-text animate-slide-up">I'm a <span class="highlight">Data Scientist</span></div>
+                <p class="hero-description animate-slide-up">Transforming Data into Insights</p>
+                
+                <div class="social-links animate-fade-in">
+                    <a href="https://github.com/Soeukbondol-ai" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/SOEUK BONDOL" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/SOEUK BONDOL" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                
+                <div class="cta-buttons animate-fade-in">
+                    <a href="contact.html" class="btn primary">Contact Me</a>
+                    <a href="projects.html" class="btn secondary">View Projects</a>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills-section">
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <i class="fas fa-python"></i>
-                <h3>Python</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fas fa-database"></i>
-                <h3>SQL</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fas fa-brain"></i>
-                <h3>Machine Learning</h3>
-            </div>
-            <div class="skill-card">
-                <i class="fas fa-chart-line"></i>
-                <h3>Data Visualization</h3>
-            </div>
-        </div>
-    </section>
-
-    <script src="main.js"></script>
+        </section>
+    </div>
 </body>
 </html>
